@@ -16,20 +16,24 @@ class _AgifyViewState extends State<AgifyView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Mencari Umur dari nama"),
+        backgroundColor: Color(0xFF3d6176),
+        title: const Text("Find your Age"),
       ),
       body: Column(
         children: [
-          const Text("Silahkan input nama"),
+          SizedBox(
+            height: 20,
+          ),
+          const Text("Please input the Name"),
           TextFormField(
             controller: controller.nameController,
           ),
           TextButton(
             onPressed: ()=> controller.getAgify(),
-            child: const Text("Tekan"),
+            child: const Text("Push", style: TextStyle(color: Color(0xFF052659)),),
           ),
           Obx(() => Text(
-            "Umur dari nama tersebut adalah ${controller.age.value?.age ?? "Tidak diketahui"}"
+            "The age is ${controller.age.value?.age ?? "none"}"
           ))
         ],
       ),

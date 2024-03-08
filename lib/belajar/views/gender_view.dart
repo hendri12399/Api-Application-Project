@@ -16,8 +16,9 @@ class _GenderViewState extends State<GenderView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xFF3d6176),
         title: const Text(
-          "Mencari Gender",
+          "Find a Gender",
         ),
       ),
       body: Column(
@@ -25,7 +26,7 @@ class _GenderViewState extends State<GenderView> {
           const SizedBox(
             height: 20,
           ),
-          const Text("Input nama "),
+          const Text("Input the Name"),
           TextFormField(
             controller: controller.nameController,
           ),
@@ -34,12 +35,12 @@ class _GenderViewState extends State<GenderView> {
           ),
           TextButton(
               onPressed: () => controller.getGender(),
-              child: const Text("Kirim")),
+              child: const Text("Send", style: TextStyle(color: Color(0xFF052659)),)),
           const SizedBox(
             height: 10,
           ),
           Obx(() => Text(
-                "Gender dari nama tersebut adalah ${controller.gender.value?.gender ?? "Tidak diketahui"}",
+                "The gender of the name is ${controller.gender.value?.gender ?? "not define"}",
                 style: const TextStyle(
                   fontStyle: FontStyle.italic,
                   fontWeight: FontWeight.w500,
