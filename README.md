@@ -1,20 +1,4 @@
-# weather_app3
+# API Aplication Projects
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-Project 1
-project ini berisikan code untuk membuat aplikasi weather app dan juga mempelajari cara menggunakan
-architecture MVC yang berisikan 5 API
+This project contains code to create an application and also learn how to use it
+MVC architecture which contains 5 APIs
