@@ -21,7 +21,7 @@ which contains 5 APIs
 
 ## Screenshots
 
-![App Screenshot]([Imgur](https://imgur.com/IxOA9Us))
+![App Screenshot](https://imgur.com/IxOA9Us)
 
 ## Authors
 
