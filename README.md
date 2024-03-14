@@ -1,4 +1,28 @@
 # API Aplication Projects
 
-This project contains code to create an application and also learn how to use it
-MVC architecture which contains 5 APIs
+This project contains code to create an application and also learn how to use it MVC architecture
+which contains 5 APIs
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                                                              |
+|:----------|:---------|:-------------------------------------------------------------------------|
+| `api_key` | `string` | **"https://api.agify.io?name=meelad"**. agify API                        |
+| `api_key` | `string` | **"https://www.boredapi.com/api/activity**. bored API                    |
+| `api_key` | `string` | **"https://catfact.ninja/fact"**. catfact API                            |
+| `api_key` | `string` | **"https://api.genderize.io"**. genderize API                            |
+| `api_key` | `string` | **"https://official-joke-api.appspot.com/random_joke"**. random_joke API |
+
+## Screenshots
+
+![App Screenshot](https://imgur.com/a/BOIDZg1)
+
+## Authors
+
+- [@hendri12399](https://github.com/hendri12399/Project1)
