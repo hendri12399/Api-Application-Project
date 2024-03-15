@@ -20,12 +20,13 @@ which contains 5 APIs
 | `api_key` | `string` | **"https://official-joke-api.appspot.com/random_joke"**. random_joke API |
 
 ## Screenshots
-![screenshot](Ui_depan.jpeg)
-![screenshot](Random_jokes.jpeg)
-![screenshot](genderize.jpeg)
-![screenshot](agify.jpeg)
-![screenshot](cat_fact.jpeg)
-![screenshot](bored.jpeg)
+
+![screenshot](ui_depan.png)
+![screenshot](random_jokes.png)
+![screenshot](genderize.png)
+![screenshot](agify.png)
+![screenshot](cat_fact.png)
+![screenshot](bored.png)
 ## Authors
 
 - [@hendri12399](https://github.com/hendri12399/Project1)
